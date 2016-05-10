@@ -13,7 +13,7 @@ class OutOfTilesException(Exception):
 
 class Player:
 
-    NUM_TILES = 1
+    NUM_TILES = 2
     COLOR_RESET = Fore.RESET + Back.RESET + Style.RESET_ALL
 
     def __init__(self, name, color):
