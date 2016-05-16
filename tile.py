@@ -42,8 +42,6 @@ class Tile:
                 return tile
         return TileType.NONE
 
-
-
     @staticmethod
     def is_placement_valid(last_tile_type, relative_x, relative_y):
         """ Determine if a new piece placed relative to the previous piece of a known type

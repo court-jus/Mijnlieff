@@ -17,7 +17,7 @@ while not game.is_over():
 
         if tile == TileType.NONE:
             print("Invalid tile type")
-        if not player.has_tile(tile):
+        elif not player.has_tile(tile):
             print("Player has no more tiles of that type remaining")
             tile = TileType.NONE
 
